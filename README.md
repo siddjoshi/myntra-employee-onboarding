@@ -86,6 +86,21 @@ myntra-employee-onboarding/
 └── README.md
 ```
 
+## 📚 Documentation
+
+Comprehensive documentation is available in the `docs/` directory:
+
+- **[Quick Start Guide](./QUICK_START.md)** - Get up and running in minutes
+- **[Requirements Document](./REQUIREMENTS.md)** - Detailed project requirements
+- **[API Documentation](./docs/API_DOCUMENTATION.md)** - Complete API reference with examples
+- **[Architecture Guide](./docs/ARCHITECTURE.md)** - System design and architecture patterns
+- **[Developer Guide](./docs/DEVELOPER_GUIDE.md)** - Development setup and best practices
+- **[Deployment Guide](./docs/DEPLOYMENT_GUIDE.md)** - Production deployment instructions
+- **[User Guide](./docs/USER_GUIDE.md)** - End-user documentation for all roles
+- **[Database Schema](./docs/DATABASE_SCHEMA.md)** - Detailed database structure
+- **[Security Guide](./docs/SECURITY.md)** - Security best practices and guidelines
+- **[Contributing Guidelines](./docs/CONTRIBUTING.md)** - How to contribute to the project
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -516,7 +531,7 @@ This project is licensed under the MIT License.
 For support and questions:
 - Email: hr@myntra.com
 - Slack: #onboarding-support
-- Documentation: [Internal Wiki]
+- Documentation: See the [docs/](./docs/) directory for comprehensive guides
 
 ## 🎯 Future Enhancements
 
