@@ -1,0 +1,47 @@
+{
+  "name": "myntra-employee-onboarding",
+  "version": "1.0.0",
+  "description": "Employee onboarding application for Myntra new hires",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "nodemon server/index.js",
+    "dev:all": "concurrently \"npm run dev\" \"npm run server\"",
+    "seed": "node server/seed.js"
+  },
+  "keywords": ["onboarding", "hr", "employee", "myntra"],
+  "author": "Myntra",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "date-fns": "^2.30.0",
+    "react-icons": "^4.12.0",
+    "recharts": "^2.10.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.3.0",
+    "nodemon": "^3.0.1",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
